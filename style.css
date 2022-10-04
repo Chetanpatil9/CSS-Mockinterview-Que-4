@@ -1,0 +1,177 @@
+/* Ques.1st */
+
+.card {
+    text-align: center;
+    height: 300px;
+    background-image: url("https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/images/homepage/mastehead(web).svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn {
+    margin: 20px auto;
+    width: 200px;
+    background-color: bisque;
+    height: 25px;
+    border-radius: 13px;
+}
+
+
+
+/*  Ques.2nd */
+
+@import
+url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Serif:wght@100&display=swap");
+
+img {
+   margin-top: 15px;  
+}
+
+.navbar {
+    float: right;
+    margin-right: 70px;
+    display: flex;
+}
+
+.nav-button {
+    padding: 30px;
+    font-family: "Poppins",sans-serif;
+}
+
+
+
+/* Ques.3rd */
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    border: 2px groove gray;
+    width: 200px;
+    height: 200px;
+}
+
+@media screen and (max-width:720px) {
+    .container {
+        flex-direction: column;
+    }
+    
+}
+
+
+/* Ques 4th */
+/* i pad  */
+.button {
+    background-color: green;
+    height: 50px;
+    width: 150px;
+    border-radius: 35px;
+    margin:12px;
+    font-size: larger;
+    color: cornsilk;
+
+}
+
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+       
+    }
+}  
+
+/* Mobile view */
+
+.button1 {
+        background-color: red;
+        height: 50px;
+        width: 150px;
+        border-radius: 35px;
+        margin:12px;
+        font-size: larger;
+        color: cornsilk;
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+       
+    }
+}
+
+
+/* Ques. 5th */
+
+.container {
+            height: 544px;
+            width: 100%;
+            border: 2px solid black;
+            display: flex;
+            /* Initialize the container as a flex box */
+ 
+            /* Flex properties for a flex container */
+ 
+            /* flex-direction: row; (Default value of flex-direction is row) */
+            /* flex-direction: column;
+            flex-direction: row-reverse;
+            flex-direction: column-reverse; */
+ 
+ 
+            /* flex-wrap: wrap; (Default value of flex-direction is no-wrap) */
+            /* flex-wrap: wrap-reverse; */
+ 
+            /* This is a shorthand for flex-direction: and flex-wrap: ;; */
+            /* flex-flow: row-reverse wrap; */
+ 
+            /* justify-content will justify the content in horizontal direction */
+            /* justify-content: center; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            /* justify-content: space-around; */
+ 
+            /* justify-content will justify the content in vertical direction */
+            /* align-items: center; */
+            /* align-items: flex-end; */
+            /* align-items: flex-start; */
+            /* align-items: stretch; */
+        }
+ 
+        .item {
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+            border: 2px solid green;
+            margin: 10px;
+            padding: 3px;
+        }
+ 
+        #item-1 {
+            /* Flex properties for a flex item */
+            /* Higher the order, later it shows up in the container */
+            /* order: 2; */
+ 
+            /* flex-grow: 2;
+            flex-shrink: 2; */
+        }
+ 
+        #item-2 {
+            /* flex-grow: 3;
+            flex-shrink: 3 ; */
+            flex-basis: 160px;
+            /* when flex-direction is set to row flex-basis: will control width */
+            /* when flex-direction is set to column flex-basis: will control height */
+        }
+ 
+        #item-3 {
+            /* flex: 2 2 230px; */
+            align-self: flex-start;
+            align-self: flex-end;
+            align-self: center;
+        }
